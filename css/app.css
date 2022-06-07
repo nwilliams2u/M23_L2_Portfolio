@@ -1,0 +1,50 @@
+/* -- Custom CSS --*/
+
+body {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 1rem;
+    background-color: #f2f5f9;
+}
+
+.border {
+    border: 1px solid #999;
+    background-color: #FFF;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+h1{
+    font-family: 'Alegreya Sans', sans-serif; 
+    font-size: 2rem;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #999;
+}
+
+h1 span.sub {
+    display: block;
+    font-size: 1.25rem;
+}
+
+.punch {
+    color: #e51470;
+    font-weight: bold;
+    
+}
+
+img.sm{
+    margin-left: 30px;
+    max-width: 130px;
+}
+
+.top-bar ul li a {
+    color: #000;
+}
+
+.top-bar ul li a.selected {
+   font-weight: bold;
+    color: #e51470;
+}
+
+.top-bar ul li a.non_select {
+    color: #999;
+}
